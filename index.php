@@ -38,7 +38,6 @@ $queried_post = get_post($post_id);?>
 <h4><?php echo $queried_post->post_title; ?></h4>
 <?php echo $queried_post->post_excerpt; ?>
 <?php echo '<a class="readmore" href="'.get_permalink($queried_post).'"><br>CONTINUE READING</a>';?>
-
               </div>
               
               <div class="col-md-4 article-cent">
